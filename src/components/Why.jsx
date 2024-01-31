@@ -3,7 +3,7 @@ function Why() {
         <section id="why" className="about_area pt-120 relative">
             <div className="about_image flex items-end justify-end">
                 <div className="image lg:pr-13">
-                    <img src="src/assets/images/about.svg" alt="about"/>
+                    <img src="src/assets/images/about.jpeg" alt="about"/>
                 </div>
             </div>
             <div className="container">

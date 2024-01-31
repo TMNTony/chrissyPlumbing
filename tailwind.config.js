@@ -77,7 +77,7 @@ module.exports = {
         "black": "#38424D",
         "gray": "#FBFBFF",
         "yellow": "#FDD446",
-        "theme-color": "#F94F4F",
+        "theme-color": "#0e86d4",
         "border-color": "#E8E8E8",
         "body-color": "#747E88",
         "heading-color": "#162447",
