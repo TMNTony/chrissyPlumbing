@@ -22,15 +22,18 @@ const responsive = {
     }
 };
 
+const works = [
+    {title: "", description: "", image: ""},
+]
+
 function Works() {
 
-    const workExamples = [
-        {image: "src/assets/images/work-1.jpg", job: "Marketing", description: "NoCodeAPI"},
-        {image: "src/assets/images/work-2.jpg", job: "Creative", description: "UIdeck"},
-        {image: "src/assets/images/work-3.jpg", job: "Web Design", description: "GreyGrids"},
-        {image: "src/assets/images/work-4.jpg", job: "Analysis", description: "Ayro UI"},
-        {image: "src/assets/images/work-5.jpg", job: "SMM", description: "LineIcons"},
-        {image: "src/assets/images/work-3.jpg", job: "SEO", description: "PageBulb"}
+    const works = [
+        {job: "", description: "", image: "src/assets/images/work-1.jpg"},
+        {job: "", description: "", image: "src/assets/images/work-1.jpg"},
+        {job: "", description: "", image: "src/assets/images/work-1.jpg"},
+        {job: "", description: "", image: "src/assets/images/work-1.jpg"},
+        {job: "", description: "", image: "src/assets/images/work-1.jpg"},
     ]
 
 
@@ -52,7 +55,7 @@ function Works() {
                 infinite={true}
                 removeArrowOnDeviceType={["tablet", "mobile"]}
             >
-                {workExamples.map((work, index) => (
+                {works.map((work, index) => (
                     <div key={index}>
                         <div className="single_item mx-auto">
                             <div className="single_work mx-3">

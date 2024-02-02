@@ -26,7 +26,7 @@ function Header(){
                     <div className="row items-center">
                         <div className="w-full">
                             <nav className="flex items-center justify-between py-4 navbar navbar-expand-lg">
-                                <a className="navbar-brand mr-5" href="index.html">
+                                <a className="navbar-brand mr-5" href="#home">
                                     <img src="src/assets/images/logo.svg" alt="Logo"/>
                                 </a>
                                 <button className="block navbar-toggler focus:outline-none lg:hidden" type="button"

@@ -1,4 +1,4 @@
-function Contact(){
+function Contact() {
     return (
         <section id="contact" className="contact_area relative pt-18 pb-120">
             <div className="contact_image flex items-center justify-end">
@@ -14,8 +14,8 @@ function Contact(){
                             <div className="section_title pb-4">
                                 <h5 className="sub_title">Contact</h5>
                                 <h4 className="main_title">Get In Touch</h4>
-                                <p>Lorem ipsum dolor sitrg amet, consetetur sadipscing elitr sed diam nonumy eirmod
-                                    tempor invidunt ut labore et dolore magna.</p>
+                                <p>Need to talk to someone? You can either call us as ??? or send us a message and one
+                                    of our representatives will reach our to you shortly</p>
                             </div>
 
                             <div className="contact_form">

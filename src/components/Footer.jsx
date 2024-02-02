@@ -13,7 +13,7 @@ function Footer() {
                         <div className="w-full md:w-1/2 lg:w-3/12">
                             <div className="footer_about mt-13 mx-3">
                                 <div className="footer_logo">
-                                    <a href="#"><img src="src/assets/images/logo-footer.svg" alt=""/></a>
+                                    <a href="#home"><img src="src/assets/images/logo-footer.svg" alt=""/></a>
                                 </div>
                                 <div className="footer_content mt-8">
                                     <p className="text-white">Lorem ipsum dolor sitco nsetetu nonumy eirmod tempor
@@ -53,7 +53,8 @@ function Footer() {
                     className="footer_copyright pt-3 pb-6 border-t-2 border-solid border-white border-opacity-10 sm:flex justify-between">
                     <div className="footer_social pt-4 mx-3 text-center">
                         <ul className="social flex justify-center sm:justify-start">
-                            <li className="mr-3"><a href="https://www.facebook.com/taketheplungeplumbing?mibextid=LQQJ4d"><i
+                            <li className="mr-3"><a
+                                href="https://www.facebook.com/taketheplungeplumbing?mibextid=LQQJ4d"><i
                                 className="lni lni-facebook-filled"></i></a></li>
                         </ul>
                     </div>
