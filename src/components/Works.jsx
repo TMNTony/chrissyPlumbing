@@ -43,8 +43,8 @@ function Works() {
                 <div className="row justify-center">
                     <div className="w-ull lg:w-1/2">
                         <div className="section_title text-center pb-6">
-                            <h5 className="sub_title">Works</h5>
-                            <h4 className="main_title">Some of Our Recent Works</h4>
+                            <h5 className="sub_title">Gallery</h5>
+                            <h4 className="main_title">Some of Our Recent Work</h4>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,6 @@ function Works() {
                                     <img src={work.image} alt={work.job} className="w-full"/>
                                 </div>
                                 <div className="work_content">
-                                    <a href="#" className="arrow"><i className="lni lni-chevron-right"></i></a>
                                     <h4 className="work_title text-xl md:text-2xl"><a
                                         href="#">{work.job}</a>
                                     </h4>

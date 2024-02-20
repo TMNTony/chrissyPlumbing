@@ -1,6 +1,6 @@
 function Contact() {
     return (
-        <section id="contact" className="contact_area relative pt-18 pb-120">
+        <section id="contact" className="contact_area relative pt-18 pb-120 bg-gray">
             <div className="contact_image flex items-center justify-end">
                 <div className="image lg:pr-13">
                     <img src="src/assets/images/contact.svg" alt="about"/>

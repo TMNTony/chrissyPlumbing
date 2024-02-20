@@ -46,13 +46,19 @@ function Header(){
                                             <a className="page-scroll active" href="#home">Home</a>
                                         </li>
                                         <li className="nav-item ml-5 lg:ml-11">
-                                            <a className="page-scroll" href="#why">About</a>
+                                            <a className="page-scroll" href="#residential">Residential Services</a>
                                         </li>
                                         <li className="nav-item ml-5 lg:ml-11">
-                                            <a className="page-scroll" href="#services">Services</a>
+                                            <a className="page-scroll" href="#commercial">Commercial Services</a>
                                         </li>
                                         <li className="nav-item ml-5 lg:ml-11">
-                                            <a className="page-scroll" href="#work">Projects</a>
+                                            <a className="page-scroll" href="#inspections">Plumbing Inspections</a>
+                                        </li>
+                                        <li className="nav-item ml-5 lg:ml-11">
+                                            <a className="page-scroll" href="#work">Gallery</a>
+                                        </li>
+                                        <li className="nav-item ml-5 lg:ml-11">
+                                            <a className="page-scroll" href="#why">About Us</a>
                                         </li>
                                         <li className="nav-item ml-5 lg:ml-11">
                                             <a className="page-scroll" href="#contact">Contact</a>

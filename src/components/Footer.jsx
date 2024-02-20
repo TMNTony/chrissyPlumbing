@@ -1,12 +1,6 @@
 function Footer() {
     return (
         <footer id="footer" className="footer_area bg-black relative z-10">
-            <div className="shape absolute left-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
-                <img src="src/assets/images/footer-shape-left.png" alt=""/>
-            </div>
-            <div className="shape absolute right-0 top-0 opacity-5 h-full overflow-hidden w-1/3">
-                <img src="src/assets/images/footer-shape-right.png" alt=""/>
-            </div>
             <div className="container">
                 <div className="footer_widget pt-18 pb-120">
                     <div className="row justify-center">
@@ -59,10 +53,12 @@ function Footer() {
                         </ul>
                     </div>
                     <div className="footer_copyright_content pt-4 text-center">
-                        <p className="text-white">Developed by <a href="https://tonycarlsondeveloper.com"
-                                                                  rel="nofollow"
-                                                                  className="text-white hover:text-theme-color">Carlson
-                            Consulting</a></p>
+                        <p className="text-white">Developed by
+                            <a href="https://tonycarlsondeveloper.com" rel="nofollow"
+                               className="text-white hover:text-theme-color"> Carlson
+                                Consulting
+                            </a>
+                        </p>
                     </div>
                 </div>
             </div>
