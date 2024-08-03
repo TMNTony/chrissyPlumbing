@@ -9,7 +9,7 @@ function Commercial() {
         },
         desktop: {
             breakpoint: {max: 3000, min: 1024},
-            items: 3
+            items: 4
         },
         tablet: {
             breakpoint: {max: 1024, min: 464},
@@ -68,11 +68,8 @@ function Commercial() {
                     <div key={index}>
                         <div className="single_item mx-auto">
                             <div className="single_work mx-3">
-                                <div className="work_image">
-                                    <img src={service.image} alt={service.title} className="w-full"/>
-                                </div>
                                 <div className="work_content">
-                                    <h4 className="work_title text-xl md:text-2xl"><a
+                                    <h4 className="work_title text-xl md:text-2xl text-center"><a
                                         href="#">{service.title}</a>
                                     </h4>
                                     <p className="mt-2">{service.description}</p>

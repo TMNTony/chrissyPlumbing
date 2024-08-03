@@ -99,15 +99,8 @@ function Residential() {
                     <div key={index}>
                         <div className="single_item mx-auto">
                             <div className="single_work mx-3">
-                                <div className="work_icon">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="94" height="92" viewBox="0 0 94 92">
-                                        <path className="services_shape" id="Polygon_12" data-name="Polygon 12"
-                                              d="M42.212,2.315a11,11,0,0,1,9.576,0l28.138,13.6a11,11,0,0,1,5.938,7.465L92.83,54.018A11,11,0,0,1,90.717,63.3L71.22,87.842A11,11,0,0,1,62.607,92H31.393a11,11,0,0,1-8.613-4.158L3.283,63.3A11,11,0,0,1,1.17,54.018L8.136,23.383a11,11,0,0,1,5.938-7.465Z"/>
-                                        <image href={service.image} x="18" y="15" height="60" width="60"/>
-                                    </svg>
-                                </div>
                                 <div className="work_content">
-                                    <h4 className="work_title text-xl md:text-2xl"><a
+                                    <h4 className="work_title text-xl md:text-2xl text-center"><a
                                         href="#">{service.title}</a>
                                     </h4>
                                     <p className="mt-2">{service.description}</p>
