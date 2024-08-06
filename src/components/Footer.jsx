@@ -6,12 +6,11 @@ function Footer() {
                     <div className="row justify-center">
                         <div className="w-full md:w-1/2 lg:w-3/12">
                             <div className="footer_about mt-13 mx-3">
-                                <div className="footer_logo">
+                                {/* <div className="footer_logo">
                                     <a href="#home"><img src="src/assets/images/logo-footer.svg" alt=""/></a>
-                                </div>
+                                </div> */}
                                 <div className="footer_content mt-8">
-                                    <p className="text-white">Lorem ipsum dolor sitco nsetetu nonumy eirmod tempor
-                                        invidunt ut labore et dolore magna uyam erat, sed diam.</p>
+                                    <p className="text-white"></p>
                                 </div>
                             </div>
                         </div>

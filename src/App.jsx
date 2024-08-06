@@ -21,7 +21,6 @@ function App() {
             <Residential/>
             <Commercial/>
             <Inspection/>
-            <Works/>
             <Why/>
             <Contact/>
             <Footer/>

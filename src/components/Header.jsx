@@ -26,9 +26,9 @@ function Header(){
                     <div className="row items-center">
                         <div className="w-full">
                             <nav className="flex items-center justify-between py-4 navbar navbar-expand-lg">
-                                <a className="navbar-brand mr-5" href="#home">
+                                {/* <a className="navbar-brand mr-5" href="#home">
                                     <img src="src/assets/images/logo.svg" alt="Logo"/>
-                                </a>
+                                </a> */}
                                 <button className="block navbar-toggler focus:outline-none lg:hidden" type="button"
                                         data-toggle="collapse" data-target="#navbarOne" aria-controls="navbarOne"
                                         aria-expanded="false" aria-label="Toggle navigation">
@@ -54,9 +54,9 @@ function Header(){
                                         <li className="nav-item ml-5 lg:ml-11">
                                             <a className="page-scroll" href="#inspections">Plumbing Inspections</a>
                                         </li>
-                                        <li className="nav-item ml-5 lg:ml-11">
+                                        {/* <li className="nav-item ml-5 lg:ml-11">
                                             <a className="page-scroll" href="#work">Gallery</a>
-                                        </li>
+                                        </li> */}
                                         <li className="nav-item ml-5 lg:ml-11">
                                             <a className="page-scroll" href="#why">About Us</a>
                                         </li>
