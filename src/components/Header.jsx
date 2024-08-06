@@ -1,22 +1,32 @@
 import Landing from "./Landing.jsx";
-import {useEffect} from "react";
+import { useEffect } from "react";
 
-function Header(){
+function Header() {
     useEffect(() => {
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector(".navbar-collapse");
 
-        document.querySelectorAll(".page-scroll").forEach((link) => {
-            link.addEventListener("click", () => {
-                navbarToggler.classList.remove("active");
-                navbarCollapse.classList.remove("show");
-            });
-        });
+       console.log('navbarToggler:', navbarToggler);
+        console.log('navbarCollapse:', navbarCollapse); 
 
-        navbarToggler.addEventListener("click", () => {
-            navbarToggler.classList.toggle("active");
-            navbarCollapse.classList.toggle("show");
-        });
+        if (navbarToggler && navbarCollapse) {
+            document.querySelectorAll(".page-scroll").forEach((link) => {
+                link.addEventListener("click", () => {
+                    navbarToggler.classList.remove("active");
+                    navbarToggler.classList.remove("hidden");
+                    navbarCollapse.classList.remove("show");
+                    
+                });
+            });
+
+            navbarToggler.addEventListener("click", () => {
+                navbarToggler.classList.toggle("active");
+                navbarCollapse.classList.toggle("show");
+            
+            });
+        } else {
+            console.error('Navbar toggler or collapse element not found');
+        }
     }, []);
 
     return (
@@ -70,9 +80,9 @@ function Header(){
                     </div>
                 </div>
             </div>
-            <Landing/>
+            <Landing />
         </section>
-    )
+    );
 }
 
-export default Header
+export default Header;
