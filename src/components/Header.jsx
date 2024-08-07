@@ -1,32 +1,35 @@
 import Landing from "./Landing.jsx";
-import { useEffect } from "react";
+import {useEffect} from "react";
 
-function Header() {
+function Header(){
     useEffect(() => {
         const navbarToggler = document.querySelector(".navbar-toggler");
         const navbarCollapse = document.querySelector(".navbar-collapse");
 
-       console.log('navbarToggler:', navbarToggler);
-        console.log('navbarCollapse:', navbarCollapse); 
+        const handleLinkClick = () => {
+            navbarToggler.classList.remove("active");
+            navbarCollapse.classList.remove("show");
+        };
 
-        if (navbarToggler && navbarCollapse) {
-            document.querySelectorAll(".page-scroll").forEach((link) => {
-                link.addEventListener("click", () => {
-                    navbarToggler.classList.remove("active");
-                    navbarToggler.classList.remove("hidden");
-                    navbarCollapse.classList.remove("show");
-                    
-                });
-            });
+        const handleTogglerClick = () => {
+            navbarToggler.classList.toggle("active");
+            navbarCollapse.classList.toggle("show");
+        };
 
-            navbarToggler.addEventListener("click", () => {
-                navbarToggler.classList.toggle("active");
-                navbarCollapse.classList.toggle("show");
-            
+        const pageScrollLinks = document.querySelectorAll(".page-scroll");
+        pageScrollLinks.forEach((link) => {
+            link.addEventListener("click", handleLinkClick);
+        });
+
+        navbarToggler.addEventListener("click", handleTogglerClick);
+
+        // Clean up event listeners on component unmount
+        return () => {
+            pageScrollLinks.forEach((link) => {
+                link.removeEventListener("click", handleLinkClick);
             });
-        } else {
-            console.error('Navbar toggler or collapse element not found');
-        }
+            navbarToggler.removeEventListener("click", handleTogglerClick);
+        };
     }, []);
 
     return (
@@ -80,9 +83,9 @@ function Header() {
                     </div>
                 </div>
             </div>
-            <Landing />
+            <Landing/>
         </section>
-    );
+    )
 }
 
-export default Header;
+export default Header
