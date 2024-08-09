@@ -59,6 +59,11 @@ function Residential() {
             image: "./src/assets/icons/plunger.svg"
         },
         {
+            title: "Hydro Jetting",
+            description: "Hydro jetting is a highly effective method of cleaning drains and sewer lines using high-pressure water. This process can remove even the toughest clogs, including tree roots, grease, and mineral deposits, leaving your pipes clean and clear.",
+            image: "./src/assets/icons/plunger.svg"
+        },
+        {
             title: "Backflow Repair",
             description: "Backflow is a plumbing issue that occurs whenever water flows in the opposite direction from its intended direction. This can happen when there is a drop in water pressure or a backflow preventer valve fails. Backflow can cause contaminated water to enter your home's clean water supply, posing a significant health risk to you and your family. It is therefore essential to address this issue as soon as possible.\n" +
                 "Our Backflow Repair Services include testing, repair, installation, and education",

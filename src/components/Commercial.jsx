@@ -37,9 +37,8 @@ function Commercial() {
             image: "./src/assets/icons/flame.svg"
         },
         {
-            title: "Drain and Sewer Services",
-            description: "Our team can handle any drain or sewer issue, from clogs and backups to full-scale repairs and replacements.",
-            image: "./src/assets/icons/sewer.svg"
+            "title": "Drain and Sewer Services",
+            "description": "Our team can handle any drain or sewer issue, from clogs and backups to full-scale repairs and replacements.\n\nWe also offer hydro-jetting services to clear out stubborn clogs and keep your drains flowing smoothly."
         },
         {
             title: "Backflow Prevention",
