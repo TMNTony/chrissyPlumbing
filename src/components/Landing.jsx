@@ -4,9 +4,17 @@ function Landing() {
 
 
             <div className="container z-20">
+                
                 <div className="row">
+                <div className="header_shape hidden lg:block"></div>
+
+<div className="header_image flex items-center">
+    <div className="image 2xl:pl-25">
+        <img src="src/assets/images/header-image.png" alt="Header Image"/>
+    </div>
+</div>
                     <div className="w-full lg:w-1/2">
-                        <div className="header_hero_content pt-150 lg:pt-0">
+                        <div className="header_hero_content lg:pt-0">
                             <h2 className="hero_title text-2xl sm:text-4xl md:text-5xl lg:text-4xl xl:text-5xl font-extrabold">
                                 Take the Plunge Plumbing
                             </h2>
@@ -42,13 +50,7 @@ function Landing() {
                     </div>
                 </div>
             </div>
-            <div className="header_shape hidden lg:block"></div>
-
-            <div className="header_image flex items-center">
-                <div className="image 2xl:pl-25">
-                    <img src="src/assets/images/header-image.png" alt="Header Image"/>
-                </div>
-            </div>
+            
         </div>
     )
 }
